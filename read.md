@@ -1,21 +1,22 @@
-git config --global user.name
-git config --global user.email
-git status
-git init 
-git add ./filename
-git commit -m "message"
-git restore --staged filename
-.gitignore
-git log
-git log --oneline
-git show "saw id"
-git checkout "saw id"
-git checkout main
-git branch branchname "saw id"
-git branch
-git checkout newbranch
-git log --oneline --all --graph
-git branch -D newbranch
-git merge newbranch
-git remote add origin "url"
-git push origin main 
+git config --global user.name (for know username)
+git config --global user.email (for know email)
+git clone "url" (pull from server)
+git remote add origin "url" (set url first time)
+git push origin main (push to server)
+git status (for status )
+git init (for creating a new repository)
+git add ./filename (adding file)
+git commit -m "message" (commit file)
+git restore --staged filename (delete last added)
+.gitignore (ignore file which we do not want to show or upload)
+git log (give commit ids)
+git log --oneline (give comit id in more presise)
+git show "saw id" (show what update happen at that particular id)
+git checkout "saw id" (goto id)
+git checkout main (goto main)
+git branch branchname "saw id" (make branch at saw id)
+git branch (show no of branch include main)
+git checkout newbranch (switch branches)
+git log --oneline --all --graph (full information of ids of commited)
+git branch -D newbranch (delete branch)
+git merge newbranch (merge two branch)
